@@ -6,13 +6,12 @@ export const HeroSection = () => {
 
   const handleDownload = () => {
     const link = document.createElement("a");
-    link.href = "/fabianCosegliaCV.pdf";
-    link.download = "fabianCoseglia-CV.pdf";
+    link.href = "https://drive.google.com/uc?export=download&id=1dJbRwS-UuYjVdXzRnpuphEEXMGU7vCm-";
+    link.download = "fabianCosegliaCV.pdf";
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
   };
-
   return (
     <Container className="HeroSection d-lg-flex ">
       <Container className="d-flex flex-column justify-content-center align-items-center">
