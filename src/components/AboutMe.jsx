@@ -34,7 +34,7 @@ export const AboutMe = () => {
                 <FontAwesomeIcon icon={faCode} color='#9a00ff' />
                 </div>
                 <Card.Text style={{marginTop:'-10px'}}> <span style={{fontWeight:'bold'}} >✔TrainingShop:</span> Ecommerce en conjunto con 4 personas bajo metodología SCRUM, desarrollo tanto del back como del front. </Card.Text>
-                <Card.Text style={{marginTop:'-10px'}}><span style={{fontWeight:'bold'}} >✔ProjectManager:</span> Desarrollo del front con REACT obteniendo datos desde una API desaarrollada por un 3ro, maquetación, diseño e implementación en código.</Card.Text>
+                <Card.Text style={{marginTop:'-10px'}}><span style={{fontWeight:'bold'}} >✔ProjectManager:</span> Desarrollo del front con REACT obteniendo datos desde una API desarrollada por un 3ro, maquetación, diseño e implementación en código.</Card.Text>
               </Card.Body>
             </Card>
           </Col>

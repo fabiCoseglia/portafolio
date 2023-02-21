@@ -102,7 +102,7 @@ export const Projects = () => {
               </Card.Text>
               <Card.Text className="text-start">
                 <span style={{ fontWeight: "bold" }}>Funcionalidades:</span>{" "}
-                Permite al Administrador poder visualizar todo el contenido de procutos y usuarios creados del proyecto TrainingShop.
+                Permite al Administrador poder visualizar todo el contenido de productos y usuarios creados del proyecto TrainingShop.
               </Card.Text>
               <Card.Text className="text-start">
                 <span style={{ fontWeight: "bold" }}>Tecnologías:</span>{" "}
