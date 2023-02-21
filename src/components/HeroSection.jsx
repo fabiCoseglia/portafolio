@@ -6,7 +6,7 @@ export const HeroSection = () => {
 
   const handleDownload = () => {
     const link = document.createElement("a");
-    link.href = "https://drive.google.com/uc?export=download&id=1dJbRwS-UuYjVdXzRnpuphEEXMGU7vCm-";
+    link.href = "https://download1073.mediafire.com/zw500t3oqlpgCitS8etMvd9-B--Ra6jqyRzLsIIdnMrms1K5vw9kERUpwyq-DY1dN20TKhzp-2XJD8kmRDBUPkyXc5B4Sw/lyj79atgqbh0ar0/fabianCosegliaCV.pdf";
     link.download = "fabianCosegliaCV.pdf";
     document.body.appendChild(link);
     link.click();
