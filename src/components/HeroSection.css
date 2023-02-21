@@ -1,0 +1,41 @@
+
+.fabiH2 {
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: writing 5s ease-out forwards;
+  }
+  
+  @keyframes writing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+  }
+  
+  .fabiH2:after {
+    content: "|";
+    animation: cursor 1s linear infinite;
+    display: inline-block;
+  }
+  
+  @keyframes cursor {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+
+    
+  }
+  
+  @media (min-width: 1024px){
+    .HeroSection{
+        margin-top: -89px;
+        margin-bottom: -25px;
+
+    }
+}

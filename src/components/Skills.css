@@ -1,0 +1,23 @@
+.SkillsInDesktop{
+    margin-top: -15px;
+    font-size: 45px;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.projectBackgroundColor{
+    background-color: #ffffff;
+    background-image: linear-gradient(180deg, #ffffff 0%, #95aee6 50%, #537fe7 100%);
+
+}
+
+@media (min-width: 1024px) {
+    .SkillsInDesktop{
+        margin-top: -50px;
+        margin-bottom: 50px;
+    }
+  }
+
+           
+  
+ 

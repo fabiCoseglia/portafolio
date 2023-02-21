@@ -1,0 +1,13 @@
+@media (min-width: 1024px){
+    .waveHeader{
+        margin-top: -20px;
+
+    }
+}
+
+@media (min-width: 1440px){
+    .waveHeader{
+        margin-top: -30px;
+        
+    }
+}
