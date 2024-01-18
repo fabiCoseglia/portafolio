@@ -3,15 +3,6 @@ import image from '../images/fabi.jpg';
 import './HeroSection.css' 
 
 export const HeroSection = () => {
-
-  const handleDownload = () => {
-    const link = document.createElement("a");
-    link.href = "https://download1073.mediafire.com/zw500t3oqlpgCitS8etMvd9-B--Ra6jqyRzLsIIdnMrms1K5vw9kERUpwyq-DY1dN20TKhzp-2XJD8kmRDBUPkyXc5B4Sw/lyj79atgqbh0ar0/fabianCosegliaCV.pdf";
-    link.download = "fabianCosegliaCV.pdf";
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
-  };
   return (
     <Container className="HeroSection d-lg-flex ">
       <Container className="d-flex flex-column justify-content-center align-items-center">
@@ -44,7 +35,7 @@ export const HeroSection = () => {
         </Container>
 
         <Container className="d-flex gap-2 mt-2">
-          <Button onClick={handleDownload} style={{ backgroundColor: "#537FE7" }}>Descargar CV</Button>
+          <Button href='https://drive.google.com/file/d/1BiR2yUluAVdroqzlh8IGZvMoRlwgTchv/view?usp=drive_link' target='_blank' style={{ backgroundColor: "#537FE7" }}>Descargar CV</Button>
           <Button style={{ backgroundColor: "#537FE7" }} href='https://github.com/fabiCoseglia' target="_blank">Mi Github</Button>
         </Container>
       </Container>
